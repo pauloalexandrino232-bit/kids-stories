@@ -1,0 +1,264 @@
+{
+  "generatedAt": "2026-07-28T17:08:14.018Z",
+  "supabaseUrl": "https://jormqonbmlbouvzcggfc.supabase.co",
+  "bucket": "story-images",
+  "counts": {
+    "categories": 7,
+    "stories": 18,
+    "storyPages": 62,
+    "storyCoverAssets": 18,
+    "categoryAssets": 7
+  },
+  "assets": [
+    {
+      "kind": "story-cover",
+      "localId": "raposa-estrelas",
+      "sourcePath": "public/stories/raposa-estrelas.png",
+      "bucketPath": "stories/raposa-estrelas.png",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/stories/raposa-estrelas.png",
+      "exists": true
+    },
+    {
+      "kind": "story-cover",
+      "localId": "castelo-nuvens",
+      "sourcePath": "public/stories/castelo-nuvens.png",
+      "bucketPath": "stories/castelo-nuvens.png",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/stories/castelo-nuvens.png",
+      "exists": true
+    },
+    {
+      "kind": "story-cover",
+      "localId": "foguete-limao",
+      "sourcePath": "public/stories/foguete-limao.png",
+      "bucketPath": "stories/foguete-limao.png",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/stories/foguete-limao.png",
+      "exists": true
+    },
+    {
+      "kind": "story-cover",
+      "localId": "rex-timido",
+      "sourcePath": "public/stories/rex-timido.png",
+      "bucketPath": "stories/rex-timido.png",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/stories/rex-timido.png",
+      "exists": true
+    },
+    {
+      "kind": "story-cover",
+      "localId": "capita-perola",
+      "sourcePath": "public/stories/capita-perola.png",
+      "bucketPath": "stories/capita-perola.png",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/stories/capita-perola.png",
+      "exists": true
+    },
+    {
+      "kind": "story-cover",
+      "localId": "sementinha",
+      "sourcePath": "public/stories/sementinha-curi.png",
+      "bucketPath": "stories/sementinha-curi.png",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/stories/sementinha-curi.png",
+      "exists": true
+    },
+    {
+      "kind": "story-cover",
+      "localId": "laboratorio-luz",
+      "sourcePath": "public/stories/laboratorio-luz.png",
+      "bucketPath": "stories/laboratorio-luz.png",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/stories/laboratorio-luz.png",
+      "exists": true
+    },
+    {
+      "kind": "story-cover",
+      "localId": "urso-lua",
+      "sourcePath": "public/stories/urso-lua.png",
+      "bucketPath": "stories/urso-lua.png",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/stories/urso-lua.png",
+      "exists": true
+    },
+    {
+      "kind": "story-cover",
+      "localId": "dragao-sem-fogo",
+      "sourcePath": "public/stories/dragao-sem-fogo.png",
+      "bucketPath": "stories/dragao-sem-fogo.png",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/stories/dragao-sem-fogo.png",
+      "exists": true
+    },
+    {
+      "kind": "story-cover",
+      "localId": "menina-arco-iris",
+      "sourcePath": "public/stories/menina-arco-iris.png",
+      "bucketPath": "stories/menina-arco-iris.png",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/stories/menina-arco-iris.png",
+      "exists": true
+    },
+    {
+      "kind": "story-cover",
+      "localId": "baleia-estrelas",
+      "sourcePath": "public/stories/baleia-estrelas.png",
+      "bucketPath": "stories/baleia-estrelas.png",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/stories/baleia-estrelas.png",
+      "exists": true
+    },
+    {
+      "kind": "story-cover",
+      "localId": "brinquedo-ganhou-vida",
+      "sourcePath": "public/stories/brinquedo-ganhou-vida.png",
+      "bucketPath": "stories/brinquedo-ganhou-vida.png",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/stories/brinquedo-ganhou-vida.png",
+      "exists": true
+    },
+    {
+      "kind": "story-cover",
+      "localId": "arvore-segredos",
+      "sourcePath": "public/stories/arvore-segredos.png",
+      "bucketPath": "stories/arvore-segredos.png",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/stories/arvore-segredos.png",
+      "exists": true
+    },
+    {
+      "kind": "story-cover",
+      "localId": "passarinho-esqueceu-voar",
+      "sourcePath": "public/stories/passarinho-esqueceu-voar.png",
+      "bucketPath": "stories/passarinho-esqueceu-voar.png",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/stories/passarinho-esqueceu-voar.png",
+      "exists": true
+    },
+    {
+      "kind": "story-cover",
+      "localId": "relogio-parou-tempo",
+      "sourcePath": "public/stories/relogio-parou-tempo.png",
+      "bucketPath": "stories/relogio-parou-tempo.png",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/stories/relogio-parou-tempo.png",
+      "exists": true
+    },
+    {
+      "kind": "story-cover",
+      "localId": "concha-historias",
+      "sourcePath": "public/stories/concha-contava-historias.png",
+      "bucketPath": "stories/concha-contava-historias.png",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/stories/concha-contava-historias.png",
+      "exists": true
+    },
+    {
+      "kind": "story-cover",
+      "localId": "raposa-porta-secreta",
+      "sourcePath": "public/stories/raposa-porta-secreta.png",
+      "bucketPath": "stories/raposa-porta-secreta.png",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/stories/raposa-porta-secreta.png",
+      "exists": true
+    },
+    {
+      "kind": "story-cover",
+      "localId": "menino-plantava-nuvens",
+      "sourcePath": "public/stories/menino-plantava-nuvens.png",
+      "bucketPath": "stories/menino-plantava-nuvens.png",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/stories/menino-plantava-nuvens.png",
+      "exists": true
+    },
+    {
+      "kind": "category-image",
+      "localId": "animais",
+      "sourcePath": "public/categories/animais.png",
+      "bucketPath": "categories/animais.png",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/categories/animais.png",
+      "exists": true
+    },
+    {
+      "kind": "category-image",
+      "localId": "fantasia",
+      "sourcePath": "public/categories/fantasia.webp",
+      "bucketPath": "categories/fantasia.webp",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/categories/fantasia.webp",
+      "exists": false
+    },
+    {
+      "kind": "category-image",
+      "localId": "espaco",
+      "sourcePath": "public/categories/espaco.webp",
+      "bucketPath": "categories/espaco.webp",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/categories/espaco.webp",
+      "exists": false
+    },
+    {
+      "kind": "category-image",
+      "localId": "dinossauros",
+      "sourcePath": "public/categories/dinossauros.webp",
+      "bucketPath": "categories/dinossauros.webp",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/categories/dinossauros.webp",
+      "exists": false
+    },
+    {
+      "kind": "category-image",
+      "localId": "piratas",
+      "sourcePath": "public/categories/piratas.webp",
+      "bucketPath": "categories/piratas.webp",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/categories/piratas.webp",
+      "exists": false
+    },
+    {
+      "kind": "category-image",
+      "localId": "natureza",
+      "sourcePath": "public/categories/natureza.webp",
+      "bucketPath": "categories/natureza.webp",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/categories/natureza.webp",
+      "exists": false
+    },
+    {
+      "kind": "category-image",
+      "localId": "ciencia",
+      "sourcePath": "public/categories/ciencia.webp",
+      "bucketPath": "categories/ciencia.webp",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/categories/ciencia.webp",
+      "exists": false
+    }
+  ],
+  "missingAssets": [
+    {
+      "kind": "category-image",
+      "localId": "fantasia",
+      "sourcePath": "public/categories/fantasia.webp",
+      "bucketPath": "categories/fantasia.webp",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/categories/fantasia.webp",
+      "exists": false
+    },
+    {
+      "kind": "category-image",
+      "localId": "espaco",
+      "sourcePath": "public/categories/espaco.webp",
+      "bucketPath": "categories/espaco.webp",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/categories/espaco.webp",
+      "exists": false
+    },
+    {
+      "kind": "category-image",
+      "localId": "dinossauros",
+      "sourcePath": "public/categories/dinossauros.webp",
+      "bucketPath": "categories/dinossauros.webp",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/categories/dinossauros.webp",
+      "exists": false
+    },
+    {
+      "kind": "category-image",
+      "localId": "piratas",
+      "sourcePath": "public/categories/piratas.webp",
+      "bucketPath": "categories/piratas.webp",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/categories/piratas.webp",
+      "exists": false
+    },
+    {
+      "kind": "category-image",
+      "localId": "natureza",
+      "sourcePath": "public/categories/natureza.webp",
+      "bucketPath": "categories/natureza.webp",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/categories/natureza.webp",
+      "exists": false
+    },
+    {
+      "kind": "category-image",
+      "localId": "ciencia",
+      "sourcePath": "public/categories/ciencia.webp",
+      "bucketPath": "categories/ciencia.webp",
+      "publicUrl": "https://jormqonbmlbouvzcggfc.supabase.co/storage/v1/object/public/story-images/categories/ciencia.webp",
+      "exists": false
+    }
+  ]
+}
