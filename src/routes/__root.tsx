@@ -11,6 +11,8 @@ import { useEffect, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import { AuthProvider } from "@/hooks/use-auth";
+import { Toaster } from "@/components/ui/sonner";
 
 function NotFoundComponent() {
   return (
@@ -76,10 +78,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
   head: () => ({
     meta: [
       { charSet: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { name: "viewport", content: "width=device-width, initial-scale=1, viewport-fit=cover" },
       { title: "Luno — Histórias mágicas para crianças" },
       { name: "description", content: "Aplicativo infantil de histórias ilustradas com conquistas, coleções e o mascote Luno, o vaga-lume dourado." },
-      { name: "theme-color", content: "#7ccfff" },
+      { name: "theme-color", content: "#ffffff" },
+      { name: "apple-mobile-web-app-capable", content: "yes" },
+      { name: "apple-mobile-web-app-status-bar-style", content: "default" },
+      { name: "apple-mobile-web-app-title", content: "KidsStories" },
+      { name: "format-detection", content: "telephone=no" },
       { property: "og:title", content: "Luno — Histórias mágicas para crianças" },
       { property: "og:description", content: "Descubra histórias, colecione itens e viva aventuras com Luno." },
       { property: "og:type", content: "website" },
@@ -90,7 +96,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: appCss,
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "icon", href: "/kids-stories-logo.png", type: "image/png" },
+      { rel: "manifest", href: "/manifest.webmanifest" },
+      { rel: "apple-touch-icon", href: "/pwa-192x192.png" },
+      { rel: "apple-touch-startup-image", href: "/pwa-512x512.png" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "" },
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" },
@@ -104,12 +113,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <head>
         <HeadContent />
       </head>
       <body>
         {children}
+        <Toaster richColors position="top-center" closeButton />
         <Scripts />
       </body>
     </html>
@@ -120,9 +130,10 @@ function RootComponent() {
   const { queryClient } = Route.useRouteContext();
 
   return (
-    <QueryClientProvider client={queryClient}>
-      {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
-      <Outlet />
-    </QueryClientProvider>
+    <AuthProvider>
+      <QueryClientProvider client={queryClient}>
+        <Outlet />
+      </QueryClientProvider>
+    </AuthProvider>
   );
 }
